@@ -964,7 +964,7 @@ Time/Distance/Calorie.
         <!--General Settings-->
         <scene sceneID="HtD-mz-bUm">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="NT6-EZ-ZIm" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="NT6-EZ-ZIm" customClass="ViewController" customModule="Deadpool" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AFH-NL-Qd2"/>
                         <viewControllerLayoutGuide type="bottom" id="x5q-lI-555"/>

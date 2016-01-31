@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+
     
     @IBAction func cancelToViewController(segue:UIStoryboardSegue) {
         dismissViewControllerAnimated(true, completion: nil)
@@ -31,7 +32,7 @@ class ViewController: UIViewController {
     @IBAction func passwordService(){
         let myalert = UIAlertView()
         myalert.title = "Forgot Password"
-        myalert.message = "What can I say?! Congratulation! 你们年轻人呐，还要努力提高自己的姿势水平!"
+        myalert.message = "What can I say?! Congratulation! 你们年轻人呐，还是要努力提高自己的姿势水平!"
         myalert.addButtonWithTitle("忍了")
         myalert.show()
     }

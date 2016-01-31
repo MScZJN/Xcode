@@ -286,6 +286,67 @@ writeBetterCheck(from: "Jason", to: "Jason Bourne", total: 30000)
 
 print ("2016.01.29 Done")
 
+func writeBestCheck(from from : String, to : String, total : Double) -> String {
+    return "Check payable from \(from) to \(to) for $\(total)"
+}
+
+writeBetterCheck(from: "Bart Stewart", to: "Alan Lafleur", total: 101.0)
+
+func addTwoNumbers(number1 : Double, number2 : Double) -> Double {
+    return number1 + number2
+}
+
+addTwoNumbers(1.222, number2: 222.2222)
+
+func cashBetterCheck(from : String, var to : String, total : Double) -> String {
+    if to == "Cash" {
+        to = from
+    }
+        return "Check payable from \(from) to \(to) for $\(total) has been cashed"
+}
+
+cashBetterCheck("Ray Daigle", to: "Cash", total: 103.00)
+
+//Closures
+
+//单利
+let simpleInterestCalculationClosure = {
+    (loanAmount : Double, var interestRate: Double, years : Int) -> Double in interestRate = interestRate / 100.0
+    var interest = Double(years) * interestRate * loanAmount
+
+    return loanAmount + interest
+}
+
+func loanCalculator(loanAmount : Double, interestRate : Double, years : Int, calculator : (Double, Double, Int) -> Double) -> Double {
+    let totalPayout = calculator(loanAmount, interestRate, years)
+    return totalPayout
+}
+
+var simple = loanCalculator(10_000, interestRate: 3.875, years: 5, calculator: simpleInterestCalculationClosure)
+
+//复利
+let compoundInterestCalculationClosure = { (loanAmount : Double, var interestRate : Double, years : Int) -> Double in interestRate = interestRate / 100.0
+    var compoundMultiplier = pow(1.0 + interestRate, Double(years))
+
+    return loanAmount * compoundMultiplier
+}
+
+var compound = loanCalculator(10_000, interestRate: 3.875, years: 5, calculator: compoundInterestCalculationClosure)
+
+var a : Double = pow(4, 2)
+
+
+
+
+
+
+
+
+
+
+
+
+//Start object
 
 
 

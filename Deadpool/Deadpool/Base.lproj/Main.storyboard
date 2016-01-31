@@ -865,6 +865,9 @@ Time/Distance/Calorie.
                                 <state key="normal" title="175 cm">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="nGu-6i-Lsj" kind="modal" id="ns2-k4-AXU"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Accept Database" translatesAutoresizingMaskIntoConstraints="NO" id="qm6-SL-keh">
                                 <rect key="frame" x="48" y="373" width="25" height="25"/>
@@ -875,6 +878,9 @@ Time/Distance/Calorie.
                                 <state key="normal" title="75 kg">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="nGu-6i-Lsj" kind="modal" id="SkV-Py-TUm"/>
+                                </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HYy-VK-anV">
                                 <rect key="frame" x="228" y="124" width="117" height="29"/>
@@ -883,6 +889,16 @@ Time/Distance/Calorie.
                                     <segment title="Female"/>
                                 </segments>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20s-fk-J4b">
+                                <rect key="frame" x="10" y="627" width="120" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Password service"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCb-m7-VT0">
+                                <rect key="frame" x="313" y="627" width="52" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Log out"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1047,4 +1063,7 @@ Time/Distance/Calorie.
         <image name="running" width="29" height="29"/>
         <image name="settings" width="29" height="29"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="sux-Sn-jsg"/>
+    </inferredMetricsTieBreakers>
 </document>

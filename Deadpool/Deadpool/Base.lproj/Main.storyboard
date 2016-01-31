@@ -279,10 +279,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection id="2aQ-K9-317">
+                            <tableViewSection headerTitle="Activity" id="2aQ-K9-317">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="44" id="NKt-ff-N6F">
-                                        <rect key="frame" x="0.0" y="99" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="113.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NKt-ff-N6F" id="ZGg-M3-1EK">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -312,7 +312,7 @@
                                         </accessibility>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="FyY-My-nRA">
-                                        <rect key="frame" x="0.0" y="143" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="157.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FyY-My-nRA" id="Fxy-3X-LHt">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -337,7 +337,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="z4M-Fr-V24">
-                                        <rect key="frame" x="0.0" y="187" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="201.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z4M-Fr-V24" id="ULO-BU-4ZE">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -362,7 +362,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="C52-RZ-8kU">
-                                        <rect key="frame" x="0.0" y="231" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="245.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C52-RZ-8kU" id="P19-bL-w6y">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -388,10 +388,10 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection id="UaZ-BH-bEa">
+                            <tableViewSection headerTitle="Audio Prompts" id="UaZ-BH-bEa">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="B78-XT-qRw">
-                                        <rect key="frame" x="0.0" y="311" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="339.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B78-XT-qRw" id="W65-Ny-4Pc">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -416,7 +416,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="Xjn-NS-BBr">
-                                        <rect key="frame" x="0.0" y="355" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="383.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xjn-NS-BBr" id="5OI-YQ-uRZ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -442,7 +442,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="OnM-et-vCU">
-                                        <rect key="frame" x="0.0" y="399" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="427.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OnM-et-vCU" id="2UL-sv-HvK">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -808,7 +808,7 @@ Time/Distance/Calorie.
         <!--Personal Info-->
         <scene sceneID="FbO-MK-fhq">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="LLr-Ul-Lay" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="LLr-Ul-Lay" customClass="ViewController" customModule="Deadpool" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1Pv-Lo-uKr"/>
                         <viewControllerLayoutGuide type="bottom" id="cYO-f7-PAm"/>
@@ -852,6 +852,9 @@ Time/Distance/Calorie.
                                 <state key="normal" title="Jan 1st 1990">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="nGu-6i-Lsj" kind="modal" id="sux-Sn-jsg"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Finish Flag" translatesAutoresizingMaskIntoConstraints="NO" id="K5n-kr-pDb">
                                 <rect key="frame" x="48" y="327" width="25" height="25"/>
@@ -887,7 +890,54 @@ Time/Distance/Calorie.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btD-b2-Pf6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1230.5" y="1514.5"/>
+            <point key="canvasLocation" x="1674.5" y="793.5"/>
+        </scene>
+        <!--Select Date of Birth-->
+        <scene sceneID="XqN-uj-YKr">
+            <objects>
+                <viewController title="Select Date of Birth" id="nGu-6i-Lsj" customClass="SelectDOBController" customModule="Deadpool" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Sa-rO-wqO"/>
+                        <viewControllerLayoutGuide type="bottom" id="JAK-CN-Idh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DKb-EM-vLV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="6nb-zV-zra">
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="475915601.98799801">
+                                    <!--2016-01-31 06:46:41 +0000-->
+                                </date>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="-3187256743">
+                                    <!--1900-01-01 10:54:17 +0000-->
+                                </date>
+                                <date key="maximumDate" timeIntervalSinceReferenceDate="475930800">
+                                    <!--2016-01-31 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hQ-zB-VpG">
+                                <rect key="frame" x="6" y="415" width="48" height="30"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <segue destination="GB6-SM-NFC" kind="unwind" unwindAction="cancelToViewController:" id="fbM-eD-7ep"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wxt-mh-g6Q">
+                                <rect key="frame" x="332" y="415" width="37" height="30"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <segue destination="GB6-SM-NFC" kind="unwind" unwindAction="cancelToViewController:" id="LkA-lO-5uE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bxm-5P-nfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="GB6-SM-NFC" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2056.5" y="793.5"/>
         </scene>
         <!--General Settings-->
         <scene sceneID="HtD-mz-bUm">
@@ -940,7 +990,7 @@ Time/Distance/Calorie.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SH5-eR-og9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1625.5" y="1514.5"/>
+            <point key="canvasLocation" x="1207.5" y="1520.5"/>
         </scene>
         <!--Settings-->
         <scene sceneID="K2b-oo-NMi">

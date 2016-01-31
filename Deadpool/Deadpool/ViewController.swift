@@ -9,6 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func cancelToViewController(segue:UIStoryboardSegue) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    @IBAction func backToViewController(segue:UIStoryboardSegue) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

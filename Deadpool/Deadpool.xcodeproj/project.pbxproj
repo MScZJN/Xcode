@@ -14,6 +14,7 @@
 		40257B701C53C3670098111D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40257B6E1C53C3670098111D /* LaunchScreen.storyboard */; };
 		40257B7B1C53C3680098111D /* DeadpoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40257B7A1C53C3680098111D /* DeadpoolTests.swift */; };
 		40257B861C53C3680098111D /* DeadpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40257B851C53C3680098111D /* DeadpoolUITests.swift */; };
+		405387B11C5DE924003080FB /* SelectDOBControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405387B01C5DE924003080FB /* SelectDOBControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		40257B811C53C3680098111D /* DeadpoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadpoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40257B851C53C3680098111D /* DeadpoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadpoolUITests.swift; sourceTree = "<group>"; };
 		40257B871C53C3680098111D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405387B01C5DE924003080FB /* SelectDOBControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDOBControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				40257B651C53C3670098111D /* AppDelegate.swift */,
 				40257B671C53C3670098111D /* ViewController.swift */,
 				40257B691C53C3670098111D /* Main.storyboard */,
+				405387B01C5DE924003080FB /* SelectDOBControllerTableViewController.swift */,
 				40257B6C1C53C3670098111D /* Assets.xcassets */,
 				40257B6E1C53C3670098111D /* LaunchScreen.storyboard */,
 				40257B711C53C3670098111D /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				40257B681C53C3670098111D /* ViewController.swift in Sources */,
 				40257B661C53C3670098111D /* AppDelegate.swift in Sources */,
+				405387B11C5DE924003080FB /* SelectDOBControllerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +489,7 @@
 				40257B8C1C53C3680098111D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40257B8D1C53C3680098111D /* Build configuration list for PBXNativeTarget "DeadpoolTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				40257B8F1C53C3680098111D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40257B901C53C3680098111D /* Build configuration list for PBXNativeTarget "DeadpoolUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				40257B921C53C3680098111D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

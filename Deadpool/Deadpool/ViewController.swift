@@ -67,6 +67,7 @@ class ViewController: UIViewController {
         self.presentViewController(optionMenu, animated: true, completion: nil)
         
     }
+    
     //Add actionSheet for language
     @IBAction func setLanguage(sender: AnyObject) {
         let optionMenu = UIAlertController(title: nil, message: nil, preferredStyle: .ActionSheet)
@@ -86,6 +87,37 @@ class ViewController: UIViewController {
         optionMenu.addAction(englishAction)
         optionMenu.addAction(cancelAction)
         self.presentViewController(optionMenu, animated: true, completion: nil)
+    }
+    
+    //Add action for Auto End (NOT WORK)
+    @IBAction func autoEnd(sender: AnyObject) {
+        let optionMenu = UIAlertController(title: nil, message: nil, preferredStyle: .ActionSheet)
+        let shutDownAction = UIAlertAction(title: "Shut Down", style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            print("Shut down")
+        })
+        let twoAction = UIAlertAction(title: "2 mins", style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            print("2 mins")
+        })
+        let fiveAction = UIAlertAction(title: "5 mins", style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            print("5 mins")
+        })
+        let tenAction = UIAlertAction(title: "10 mins", style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            print("10 mins")
+        })
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel, handler: {
+            (alert: UIAlertAction!) -> Void in
+            print("Cancelled")
+        })
+        optionMenu.addAction(shutDownAction)
+        optionMenu.addAction(twoAction)
+        optionMenu.addAction(fiveAction)
+        optionMenu.addAction(tenAction)
+        optionMenu.addAction(cancelAction)
+        
     }
 }
 

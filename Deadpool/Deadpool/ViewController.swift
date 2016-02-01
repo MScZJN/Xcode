@@ -44,6 +44,48 @@ class ViewController: UIViewController {
         myalert.addButtonWithTitle("Roger that")
         myalert.show()
     }
-
+    
+    //Add actionSheet for unit
+    @IBAction func ShowActionSheet(sender: AnyObject) {
+        
+        let optionMenu = UIAlertController(title: nil, message: nil, preferredStyle: .ActionSheet)
+        let metricAction = UIAlertAction(title: "Metric", style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            print("File Delected")
+        })
+        let imperialAction = UIAlertAction(title: "Imperial", style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            print("File Saved")
+        })
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel, handler: {
+            (alert:UIAlertAction!) -> Void in
+            print("Cancelled")
+        })
+        optionMenu.addAction(metricAction)
+        optionMenu.addAction(imperialAction)
+        optionMenu.addAction(cancelAction)
+        self.presentViewController(optionMenu, animated: true, completion: nil)
+        
+    }
+    //Add actionSheet for language
+    @IBAction func setLanguage(sender: AnyObject) {
+        let optionMenu = UIAlertController(title: nil, message: nil, preferredStyle: .ActionSheet)
+        let chineseAction = UIAlertAction(title: "中文", style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            print("Chinese Selected")
+        })
+        let englishAction = UIAlertAction(title: "English", style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            print("English Selected")
+        })
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel, handler: {
+            (alert:UIAlertAction!) -> Void in
+            print("Cancelled")
+        })
+        optionMenu.addAction(chineseAction)
+        optionMenu.addAction(englishAction)
+        optionMenu.addAction(cancelAction)
+        self.presentViewController(optionMenu, animated: true, completion: nil)
+    }
 }
 

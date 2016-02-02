@@ -15,6 +15,7 @@
 		40257B7B1C53C3680098111D /* DeadpoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40257B7A1C53C3680098111D /* DeadpoolTests.swift */; };
 		40257B861C53C3680098111D /* DeadpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40257B851C53C3680098111D /* DeadpoolUITests.swift */; };
 		405387B11C5DE924003080FB /* SelectDOBControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405387B01C5DE924003080FB /* SelectDOBControllerTableViewController.swift */; };
+		4081218E1C60A31F00C23CDB /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081218D1C60A31F00C23CDB /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		40257B851C53C3680098111D /* DeadpoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadpoolUITests.swift; sourceTree = "<group>"; };
 		40257B871C53C3680098111D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		405387B01C5DE924003080FB /* SelectDOBControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDOBControllerTableViewController.swift; sourceTree = "<group>"; };
+		4081218D1C60A31F00C23CDB /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				40257B651C53C3670098111D /* AppDelegate.swift */,
+				405387B01C5DE924003080FB /* SelectDOBControllerTableViewController.swift */,
 				40257B671C53C3670098111D /* ViewController.swift */,
 				40257B691C53C3670098111D /* Main.storyboard */,
-				405387B01C5DE924003080FB /* SelectDOBControllerTableViewController.swift */,
+				4081218D1C60A31F00C23CDB /* GamePickerViewController.swift */,
 				40257B6C1C53C3670098111D /* Assets.xcassets */,
 				40257B6E1C53C3670098111D /* LaunchScreen.storyboard */,
 				40257B711C53C3670098111D /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4081218E1C60A31F00C23CDB /* GamePickerViewController.swift in Sources */,
 				40257B681C53C3670098111D /* ViewController.swift in Sources */,
 				40257B661C53C3670098111D /* AppDelegate.swift in Sources */,
 				405387B11C5DE924003080FB /* SelectDOBControllerTableViewController.swift in Sources */,

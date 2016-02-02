@@ -339,7 +339,7 @@ var a : Double = pow(4, 2)
 
 
 
-
+print("2016.01.31 Done")
 
 
 
@@ -347,6 +347,104 @@ var a : Double = pow(4, 2)
 
 
 //Start object
+
+class Door {
+    var opened : Bool = false
+    var locked : Bool = false
+    let width : Int = 32
+    let height: Int = 72
+    let weight: Int = 10
+    let color : String = "Red"
+    
+    func open(_: Void) -> String {
+        opened = true;
+        return "the door is opend!"
+    }
+    
+    func close(_:Void) -> String {
+        opened = false;
+        return "the door is closed!"
+    }
+    
+    func lock(_:Void) -> String {
+        locked = true;
+        return "the door is locked!"
+    }
+    
+    func unlock(_:Void) -> String {
+        locked = false;
+        return "the door is unlocked!"
+    }
+}
+
+let frontDoor = Door()
+frontDoor.close()
+frontDoor.open()
+
+frontDoor.lock()
+frontDoor.unlock()
+
+
+
+
+
+class NewDoor {
+    var opened : Bool = false
+    var locked : Bool = false
+    let width : Int = 32
+    let height : Int = 72
+    let weight : Int = 10
+    var color : String = "Red"
+    
+    func open(_ : Void) -> String {
+        if (opened == false) {
+            opened = true
+            return "the door is opened!"
+        }
+        else {
+            return "the door is already opended!"
+        }
+    }
+    
+    func close(_ : Void) -> String {
+        if (opened == true) {
+            opened = false
+            return "the door is closed!"
+        }
+        else {
+            return "the door is already closed!"
+        }
+    }
+    
+    func lock(_ : Void) -> String {
+        if (opened == false) {
+            locked = true
+            return "the door is locked!"
+        }
+        else {
+            return "You cannot lock an opened door."
+        }
+    }
+    
+    func unlock(_ : Void) -> String {
+        if (opened == false) {
+            locked = false
+            return "the door is unlocked!"
+        }
+        else {
+            return "You cannot unlock an opened door."
+        }
+    }
+}
+
+let newFrontDoor = NewDoor()
+
+newFrontDoor.lock()
+newFrontDoor.unlock()
+
+newFrontDoor.locked
+newFrontDoor.width
+newFrontDoor.weight
 
 
 
